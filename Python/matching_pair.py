@@ -17,10 +17,7 @@ class matchPair():
             r += d
 
         return(round(r/2))
-        
-
-
-
+         
 #test case
 arr = [10, 20, 20, 10, 10, 30, 50, 10, 20]
 #arr = [1, 1, 3, 1, 2, 1, 3, 3, 3, 3]
