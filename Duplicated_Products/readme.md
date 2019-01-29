@@ -1,0 +1,2 @@
+## Problem
+> Given n complex products, each with name, price and weight, find out how many duplicates of the original product are present within the products. Here, a duplicate is a product with all parameters, i.e. name, price and weight, equal to some other product.
