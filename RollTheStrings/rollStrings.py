@@ -2,7 +2,6 @@ def rollTheString(s, roll):
     ab = 'abcdefghijklmnopqrstuvwxyz'
     r = ''
     abi = 0
-    sN = []
     x = ''
     for i in roll:
         for j in range(int(i)):
@@ -14,14 +13,13 @@ def rollTheString(s, roll):
         for _ in range(int(i), len(s)):
             x += s[_]
 
-        sN.append(r + x)
         s = (r + x)
         r = ''
         x = ''
 
-    return(sN)
+    return(s)
 
 ## test
-s = 'abz'
-roll = '3'
+s = 'vwxyz'
+roll = '12345'
 print(rollTheString(s, roll))
