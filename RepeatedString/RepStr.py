@@ -11,7 +11,6 @@ def repeatedString(s, n):
 ## Test
 s = 'bcbccacaacbbacabcabccacbccbababbbbabcccbbcbcaccababccbcbcaabbbaabbcaabbbbbbabcbcbbcaccbccaabacbbacbc'
 n = 649606239668
-<<<<<<< HEAD
 # the result should be = 162401559918
 print(repeatedString(s, n))
 
