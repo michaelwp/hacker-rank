@@ -7,7 +7,6 @@ def utopianTree(n):
             x += x
     return(x)
 
-
 ## test
 n = [4, 3]
 for _ in range(len(n)):
