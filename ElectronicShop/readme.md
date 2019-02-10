@@ -36,4 +36,4 @@ drive = 5
 -1
 ```
 ## Explanation
-There is no way to buy one keyboard and one USB drive because total price *drives + keyboards > b (5 + 4 = 9)*, so we print *-1* .
+There is no way to buy one keyboard and one USB drive because total price *drives + keyboards > b (5 + 4 = 9) > 5*, so we print *-1* .
