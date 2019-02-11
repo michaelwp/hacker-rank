@@ -2,21 +2,16 @@ def hourglassSum(arr):
     x = []
     y = []
     z = []
+    r = []
     for _ in range(4):
         for a in range(4):
             x.append([arr[_][a], arr[_][a+1], arr[_][a+2]])
+            y.append(arr[_+1][a+1])
+            z.append([arr[_+2][a], arr[_+2][a+1], arr[_+2][a+2]])
 
-    for _ in range(1, 5):
-        for b in range(1,5):
-            y.append(arr[_][b])
+    for a, b, c in zip(x, y, z):
+         r.append(sum(a)+b+sum(c))
 
-    for _ in range(2, 6):
-        for c in range(4):
-            z.append([arr[_][c], arr[_][c+1], arr[_][c+2]])
-
-    r = []
-    for aa, bb, cc in zip(x, y, z):
-         r.append(sum(aa)+bb+sum(cc))
     mh = r.index(max(r))
 
     ## print the hourglass form, the highest sum will marked with red color
@@ -44,6 +39,8 @@ def hourglassSum(arr):
     
     ## print the number of the largest hourglass sum
     print('\nthe largest (maximum) hourglass sum :', max(r))
+
+
         
 ## test
 arr = [[1, 1, 1, 0, 0, 0], 
