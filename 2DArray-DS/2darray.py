@@ -19,30 +19,30 @@ def hourglassSum(arr):
          r.append(sum(aa)+bb+sum(cc))
     mh = r.index(max(r))
 
-    ## the hourglass form
-    print('\nThe hourglass form :')
+    ## print the hourglass form, the highest sum will marked with red color
+    print('\nThe hourglass form (the red mark is the highest sum of hourglass value):')
     for _ in range(4):
         n = 4 * (_+1)
         for _ in range((n-4), n):
             if _ == mh:
-                print('\033[1;31;40m' + str(x[_][0]), x[_][1], x[_][2], end='\t')
+                print('\033[1;37;41m' + str(x[_][0]), x[_][1], x[_][2], end='\t')
             else:
                 print('\033[0;37;40m' + str(x[_][0]), x[_][1], x[_][2], end='\t')
         print('')
         for _ in range((n-4), n):
             if _ == mh:
-                print('\033[1;31;40m' + ' ', y[_], ' ', end='\t')
+                print('\033[1;37;41m' + ' ', y[_], ' ', end='\t')
             else:
                 print('\033[0;37;40m' + ' ', y[_], ' ', end='\t')
         print('')
         for _ in range((n-4), n):
             if _ == mh:
-                print('\033[1;31;40m' + str(z[_][0]), z[_][1], z[_][2], end='\t')
+                print('\033[1;37;41m' + str(z[_][0]), z[_][1], z[_][2], end='\t')
             else:
                 print('\033[0;37;40m' + str(z[_][0]), z[_][1], z[_][2], end='\t')
         print('\n')
     
-    ## the largest hourglass sum
+    ## print the number of the largest hourglass sum
     print('\nthe largest (maximum) hourglass sum :', max(r))
         
 ## test
