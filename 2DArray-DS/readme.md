@@ -61,4 +61,4 @@ Each of the *6* lines of inputs *arr[i]* contains *6* space-separated integers *
 ## Output Format
 Print the largest (maximum) hourglass sum found in *arr*.
 
-![2Darray ss output](Screen Shot 2019-02-11 at 10.31.21.png)
+![2Darray ss output](https://github.com/kei-001/practice/blob/master/2DArray-DS/Screen%20Shot%202019-02-11%20at%2010.31.21.png)
