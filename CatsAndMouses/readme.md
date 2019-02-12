@@ -42,8 +42,8 @@ Mouse C
 ```
 ## Explanation
 ```
-[ Cat A ] -> [ Cat B ] -> [ Mouse C ]
-[   1   ] -> [   3   ] -> [    2    ]
+[ Cat A ] -> [ Mouse C ] -> [ Cat B ]
+[   1   ] -> [    2    ] -> [   3   ]
 
 Both Cat A and Cat B is close to the Mouse C, so they will fight to over the Mouse C, so the Mouse C will escape.
 ```
