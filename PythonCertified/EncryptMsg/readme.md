@@ -1,4 +1,4 @@
-##The Caesar Cipher: encrypting a message
+## The Caesar Cipher: encrypting a message
 We're going to show you four simple programs in order to present some aspects of string processing in Python. They are purposefully simple, but the lab problems will be significantly more complicated.
 
 The first problem we want to show you is called the Caesar cipher - more details here: [Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher).
