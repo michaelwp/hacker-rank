@@ -9,6 +9,7 @@ We've written it using the following assumptions:
 
 - it accepts Latin letters only.
 - all letters of the message are in original case.
+- the key accept number only.
 
 The code, fed with this message:
 ```
